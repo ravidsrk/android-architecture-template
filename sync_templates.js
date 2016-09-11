@@ -64,6 +64,7 @@ function copyFiles(name, def) {
       def.reject('error');
     } else {
       replaceAndRename(false);
+      renameFileToFtl(name)
       def.resolve('Copying complete!');
     }
   });
@@ -100,4 +101,26 @@ function replaceAndRename(toggle) {
       return console.log("Renamed app folder " + file);
     }
   });
+}
+
+function renameFileToFtl(name) {
+  Finder.from("./templates/" + name).findFiles('*.java', function(files) {
+        for (var i = 0; i < files.length; i++) {
+          mv(files[i], files[i]+'.ftl', function (err) {
+            if (err) {
+              return console.log(err);
+            }
+          });
+        };
+      });
+
+      Finder.from("./templates/" + name).findFiles('*.xml', function(files) {
+        for (var i = 0; i < files.length; i++) {
+          mv(files[i], files[i]+'.ftl', function (err) {
+            if (err) {
+              return console.log(err);
+            }
+          });
+        };
+      });
 }
