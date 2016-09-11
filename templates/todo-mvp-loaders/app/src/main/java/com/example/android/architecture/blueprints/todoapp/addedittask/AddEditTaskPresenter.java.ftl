@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -24,9 +24,9 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TaskLoader;
-import <%= appPackage %>.data.source.TasksDataSource;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TaskLoader;
+import ${packageName}.data.source.TasksDataSource;
 
 /**
  * Listens to user actions from the UI ({@link AddEditTaskFragment}), retrieves the data and updates

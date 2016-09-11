@@ -1,6 +1,6 @@
-package <%= appPackage %>.util;
+package ${packageName}.util;
 
-import <%= appPackage %>.data.source.TasksRepositoryComponent;
+import ${packageName}.data.source.TasksRepositoryComponent;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

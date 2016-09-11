@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source.local;
+package ${packageName}.data.source.local;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -24,10 +24,10 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.local.TasksPersistenceContract.TaskEntry;
-import <%= appPackage %>.util.schedulers.BaseSchedulerProvider;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.local.TasksPersistenceContract.TaskEntry;
+import ${packageName}.util.schedulers.BaseSchedulerProvider;
 import com.squareup.sqlbrite.BriteDatabase;
 import com.squareup.sqlbrite.SqlBrite;
 

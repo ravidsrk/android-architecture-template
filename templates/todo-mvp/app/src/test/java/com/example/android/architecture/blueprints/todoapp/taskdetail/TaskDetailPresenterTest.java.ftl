@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 import org.junit.Before;
 import org.junit.Test;

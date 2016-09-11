@@ -1,9 +1,9 @@
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.Context;
 
-import <%= appPackage %>.data.source.local.TasksLocalDataSource;
-import <%= appPackage %>.data.source.remote.TasksRemoteDataSource;
+import ${packageName}.data.source.local.TasksLocalDataSource;
+import ${packageName}.data.source.remote.TasksRemoteDataSource;
 
 import javax.inject.Singleton;
 

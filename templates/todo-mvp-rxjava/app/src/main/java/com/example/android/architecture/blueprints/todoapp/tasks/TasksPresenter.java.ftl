@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.util.EspressoIdlingResource;
-import <%= appPackage %>.util.schedulers.BaseSchedulerProvider;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.util.EspressoIdlingResource;
+import ${packageName}.util.schedulers.BaseSchedulerProvider;
 
 import java.util.List;
 

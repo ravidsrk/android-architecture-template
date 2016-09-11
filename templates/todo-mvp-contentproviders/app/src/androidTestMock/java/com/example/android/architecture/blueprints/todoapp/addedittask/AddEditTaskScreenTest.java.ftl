@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.intent.rule.IntentsTestRule;
@@ -22,7 +22,7 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.R;
+import ${packageName}.R;
 
 import org.junit.After;
 import org.junit.Before;

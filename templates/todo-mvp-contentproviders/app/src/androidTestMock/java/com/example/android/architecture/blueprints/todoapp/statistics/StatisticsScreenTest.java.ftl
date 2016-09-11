@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.content.Intent;
 import android.support.test.InstrumentationRegistry;
@@ -22,11 +22,11 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.data.FakeTasksRemoteDataSource;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.taskdetail.TaskDetailActivity;
+import ${packageName}.R;
+import ${packageName}.data.FakeTasksRemoteDataSource;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.taskdetail.TaskDetailActivity;
 
 import org.junit.Before;
 import org.junit.Rule;

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.Context;
 
-import <%= appPackage %>.data.Task;
+import ${packageName}.data.Task;
 import com.google.common.collect.Lists;
 
 import org.junit.After;

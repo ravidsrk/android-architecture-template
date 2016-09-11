@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.content.Context;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.data.Task;
+import ${packageName}.R;
+import ${packageName}.data.Task;
 
 import java.util.List;
 

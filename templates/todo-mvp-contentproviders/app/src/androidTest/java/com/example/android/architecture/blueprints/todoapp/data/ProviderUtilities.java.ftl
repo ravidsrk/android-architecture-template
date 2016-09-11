@@ -1,10 +1,10 @@
-package <%= appPackage %>.data;
+package ${packageName}.data;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.test.AndroidTestCase;
 
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
+import ${packageName}.data.source.local.TasksPersistenceContract;
 
 import java.util.Map;
 import java.util.Set;

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask.domain.usecase;
+package ${packageName}.addedittask.domain.usecase;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.UseCase;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 /**
  * Retrieves a {@link Task} from the {@link TasksRepository}.

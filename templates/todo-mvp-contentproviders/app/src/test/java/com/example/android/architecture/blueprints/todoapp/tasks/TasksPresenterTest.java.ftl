@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.LoaderProvider;
-import <%= appPackage %>.data.source.MockCursorProvider;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.LoaderProvider;
+import ${packageName}.data.source.MockCursorProvider;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 import org.junit.Before;
 import org.junit.Test;

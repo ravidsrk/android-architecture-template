@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="<%= appPackage %>">
+  package="${packageName}">
 
   <application
     android:allowBackup="false"
@@ -24,14 +24,14 @@
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
     <activity
-      android:name="<%= appPackage %>.tasks.TasksActivity"
+      android:name="${packageName}.tasks.TasksActivity"
       android:theme="@style/AppTheme.OverlapSystemBar">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name="<%= appPackage %>.taskdetail.TaskDetailActivity">
+    <activity android:name="${packageName}.taskdetail.TaskDetailActivity">
 
       <intent-filter>
         <action android:name="android.intent.action.VIEW" />
@@ -41,11 +41,11 @@
       </intent-filter>
     </activity>
 
-    <activity android:name="<%= appPackage %>.addedittask.AddEditTaskActivity" />
-    <activity android:name="<%= appPackage %>.statistics.StatisticsActivity" />
+    <activity android:name="${packageName}.addedittask.AddEditTaskActivity" />
+    <activity android:name="${packageName}.statistics.StatisticsActivity" />
 
     <provider
-      android:name="<%= appPackage %>.data.source.TasksProvider"
+      android:name="${packageName}.data.source.TasksProvider"
       android:authorities="${packageName}"
       android:exported="false" />
   </application>

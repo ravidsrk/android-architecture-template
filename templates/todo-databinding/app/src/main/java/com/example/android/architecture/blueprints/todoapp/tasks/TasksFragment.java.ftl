@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -38,12 +38,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.databinding.TaskItemBinding;
-import <%= appPackage %>.databinding.TasksFragBinding;
-import <%= appPackage %>.taskdetail.TaskDetailActivity;
+import ${packageName}.R;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.data.Task;
+import ${packageName}.databinding.TaskItemBinding;
+import ${packageName}.databinding.TasksFragBinding;
+import ${packageName}.taskdetail.TaskDetailActivity;
 
 import java.util.ArrayList;
 import java.util.List;

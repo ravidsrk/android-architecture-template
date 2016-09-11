@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.database.Cursor;
 import android.os.Bundle;
@@ -22,10 +22,10 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.LoaderProvider;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.LoaderProvider;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

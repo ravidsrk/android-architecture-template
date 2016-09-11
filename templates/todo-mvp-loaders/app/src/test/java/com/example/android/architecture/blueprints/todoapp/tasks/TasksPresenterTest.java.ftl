@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksLoader;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksLoader;
+import ${packageName}.data.source.TasksRepository;
 import com.google.common.collect.Lists;
 
 import java.util.List;

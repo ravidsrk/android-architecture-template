@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.addedittask.domain.usecase.DeleteTask;
-import <%= appPackage %>.addedittask.domain.usecase.GetTask;
-import <%= appPackage %>.addedittask.domain.usecase.SaveTask;
-import <%= appPackage %>.data.FakeTasksRemoteDataSource;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.data.source.local.TasksLocalDataSource;
-import <%= appPackage %>.statistics.domain.usecase.GetStatistics;
-import <%= appPackage %>.tasks.domain.filter.FilterFactory;
-import <%= appPackage %>.tasks.domain.usecase.ActivateTask;
-import <%= appPackage %>.tasks.domain.usecase.ClearCompleteTasks;
-import <%= appPackage %>.tasks.domain.usecase.CompleteTask;
-import <%= appPackage %>.tasks.domain.usecase.GetTasks;
+import ${packageName}.addedittask.domain.usecase.DeleteTask;
+import ${packageName}.addedittask.domain.usecase.GetTask;
+import ${packageName}.addedittask.domain.usecase.SaveTask;
+import ${packageName}.data.FakeTasksRemoteDataSource;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.data.source.local.TasksLocalDataSource;
+import ${packageName}.statistics.domain.usecase.GetStatistics;
+import ${packageName}.tasks.domain.filter.FilterFactory;
+import ${packageName}.tasks.domain.usecase.ActivateTask;
+import ${packageName}.tasks.domain.usecase.ClearCompleteTasks;
+import ${packageName}.tasks.domain.usecase.CompleteTask;
+import ${packageName}.tasks.domain.usecase.GetTasks;
 
 /**
  * Enables injection of mock implementations for

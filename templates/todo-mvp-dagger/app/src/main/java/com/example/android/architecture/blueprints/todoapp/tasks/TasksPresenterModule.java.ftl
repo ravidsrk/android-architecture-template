@@ -1,4 +1,4 @@
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import dagger.Module;
 import dagger.Provides;

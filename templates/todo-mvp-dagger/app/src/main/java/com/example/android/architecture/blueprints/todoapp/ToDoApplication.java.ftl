@@ -1,14 +1,14 @@
-package <%= appPackage %>;
+package ${packageName};
 
 import android.app.Application;
 
-import <%= appPackage %>.addedittask.AddEditTaskComponent;
-import <%= appPackage %>.data.source.DaggerTasksRepositoryComponent;
-import <%= appPackage %>.data.source.TasksRepositoryComponent;
-import <%= appPackage %>.data.source.TasksRepositoryModule;
-import <%= appPackage %>.statistics.StatisticsComponent;
-import <%= appPackage %>.taskdetail.TaskDetailComponent;
-import <%= appPackage %>.tasks.TasksComponent;
+import ${packageName}.addedittask.AddEditTaskComponent;
+import ${packageName}.data.source.DaggerTasksRepositoryComponent;
+import ${packageName}.data.source.TasksRepositoryComponent;
+import ${packageName}.data.source.TasksRepositoryModule;
+import ${packageName}.statistics.StatisticsComponent;
+import ${packageName}.taskdetail.TaskDetailComponent;
+import ${packageName}.tasks.TasksComponent;
 
 /**
  * Even though Dagger2 allows annotating a {@link dagger.Component} as a singleton, the code itself

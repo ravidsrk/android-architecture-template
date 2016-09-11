@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import <%= appPackage %>.TestUseCaseScheduler;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.statistics.domain.usecase.GetStatistics;
+import ${packageName}.TestUseCaseScheduler;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.statistics.domain.usecase.GetStatistics;
 import com.google.common.collect.Lists;
 
 import org.junit.Before;

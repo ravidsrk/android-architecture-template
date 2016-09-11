@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;

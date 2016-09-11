@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 /**
  * Listens to user actions from the UI ({@link TaskDetailFragment}), retrieves the data and updates

@@ -1,4 +1,4 @@
-package <%= appPackage %>.statistics.domain.model;
+package ${packageName}.statistics.domain.model;
 
 public class Statistics {
 

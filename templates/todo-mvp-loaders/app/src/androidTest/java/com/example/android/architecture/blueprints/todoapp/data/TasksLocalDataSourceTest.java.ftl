@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data;
+package ${packageName}.data;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.local.TasksLocalDataSource;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.local.TasksLocalDataSource;
 
 import org.junit.After;
 import org.junit.Before;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.content.Context;
 import android.content.Intent;
@@ -41,10 +41,10 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.taskdetail.TaskDetailActivity;
+import ${packageName}.R;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.data.Task;
+import ${packageName}.taskdetail.TaskDetailActivity;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

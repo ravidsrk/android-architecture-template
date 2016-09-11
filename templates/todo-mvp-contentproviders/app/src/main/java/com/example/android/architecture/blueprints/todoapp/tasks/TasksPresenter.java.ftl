@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.app.Activity;
 import android.database.Cursor;
@@ -24,11 +24,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.LoaderProvider;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.LoaderProvider;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 import java.util.List;
 

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks.domain.usecase;
+package ${packageName}.tasks.domain.usecase;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.tasks.TasksFilterType;
-import <%= appPackage %>.tasks.domain.filter.FilterFactory;
-import <%= appPackage %>.tasks.domain.filter.TaskFilter;
+import ${packageName}.UseCase;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.tasks.TasksFilterType;
+import ${packageName}.tasks.domain.filter.FilterFactory;
+import ${packageName}.tasks.domain.filter.TaskFilter;
 
 import java.util.List;
 

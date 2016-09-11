@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
-import static <%= appPackage %>.tasks.TasksFilterType.ALL_TASKS;
+import static ${packageName}.tasks.TasksFilterType.ALL_TASKS;
 
 import android.content.Context;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.graphics.drawable.Drawable;
 
-import <%= appPackage %>.BR;
-import <%= appPackage %>.R;
+import ${packageName}.BR;
+import ${packageName}.R;
 
 /**
  * Exposes the data to be used in the {@link TasksContract.View}.

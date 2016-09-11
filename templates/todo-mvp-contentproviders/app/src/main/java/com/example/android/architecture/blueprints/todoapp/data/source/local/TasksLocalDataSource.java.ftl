@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source.local;
+package ${packageName}.data.source.local;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TaskValues;
-import <%= appPackage %>.data.source.TasksDataSource;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TaskValues;
+import ${packageName}.data.source.TasksDataSource;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

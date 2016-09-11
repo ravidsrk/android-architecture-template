@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.Injection;
-import <%= appPackage %>.R;
-import <%= appPackage %>.TestUtils;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.tasks.TasksActivity;
+import ${packageName}.Injection;
+import ${packageName}.R;
+import ${packageName}.TestUtils;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.tasks.TasksActivity;
 
 import org.junit.Rule;
 import org.junit.Test;

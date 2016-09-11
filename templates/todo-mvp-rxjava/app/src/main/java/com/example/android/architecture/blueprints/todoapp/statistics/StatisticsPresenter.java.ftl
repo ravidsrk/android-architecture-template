@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.support.annotation.NonNull;
 import android.support.v4.util.Pair;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.util.EspressoIdlingResource;
-import <%= appPackage %>.util.schedulers.BaseSchedulerProvider;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.util.EspressoIdlingResource;
+import ${packageName}.util.schedulers.BaseSchedulerProvider;
 
 import java.util.List;
 

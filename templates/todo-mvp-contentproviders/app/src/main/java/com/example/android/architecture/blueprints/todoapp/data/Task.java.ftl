@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data;
+package ${packageName}.data;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
+import ${packageName}.data.source.local.TasksPersistenceContract;
 import com.google.common.base.Objects;
 
 import java.util.UUID;

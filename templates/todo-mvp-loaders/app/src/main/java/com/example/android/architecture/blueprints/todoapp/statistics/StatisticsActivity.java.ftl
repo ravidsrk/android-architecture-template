@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,11 +26,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import <%= appPackage %>.Injection;
-import <%= appPackage %>.R;
-import <%= appPackage %>.data.source.TasksLoader;
-import <%= appPackage %>.tasks.TasksActivity;
-import <%= appPackage %>.util.ActivityUtils;
+import ${packageName}.Injection;
+import ${packageName}.R;
+import ${packageName}.data.source.TasksLoader;
+import ${packageName}.tasks.TasksActivity;
+import ${packageName}.util.ActivityUtils;
 
 /**
  * Show statistics for tasks.

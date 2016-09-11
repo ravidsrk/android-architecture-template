@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source.local;
+package ${packageName}.data.source.local;
 
 import android.content.ContentUris;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import <%= appPackage %>.BuildConfig;
+import ${packageName}.BuildConfig;
 
 /**
  * The contract used for the db to save the tasks locally.

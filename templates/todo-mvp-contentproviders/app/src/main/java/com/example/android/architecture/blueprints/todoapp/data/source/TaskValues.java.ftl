@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.ContentValues;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.local.TasksPersistenceContract;
 
 public class TaskValues {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 import android.os.Handler;
 

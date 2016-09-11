@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.test.mock.MockCursor;
 
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
+import ${packageName}.data.source.local.TasksPersistenceContract;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -19,11 +19,11 @@
 
         <variable
             name="task"
-            type="<%= appPackage %>.data.Task" />
+            type="${packageName}.data.Task" />
 
         <variable
             name="actionHandler"
-            type="<%= appPackage %>.tasks.TasksItemActionHandler" />
+            type="${packageName}.tasks.TasksItemActionHandler" />
     </data>
 
     <LinearLayout

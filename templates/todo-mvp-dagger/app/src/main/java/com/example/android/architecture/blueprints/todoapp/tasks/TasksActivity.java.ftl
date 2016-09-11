@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,11 +28,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.ToDoApplication;
-import <%= appPackage %>.statistics.StatisticsActivity;
-import <%= appPackage %>.util.ActivityUtils;
-import <%= appPackage %>.util.EspressoIdlingResource;
+import ${packageName}.R;
+import ${packageName}.ToDoApplication;
+import ${packageName}.statistics.StatisticsActivity;
+import ${packageName}.util.ActivityUtils;
+import ${packageName}.util.EspressoIdlingResource;
 
 import javax.inject.Inject;
 

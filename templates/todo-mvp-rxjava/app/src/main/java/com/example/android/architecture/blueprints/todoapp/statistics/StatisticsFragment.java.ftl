@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -25,7 +25,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import <%= appPackage %>.R;
+import ${packageName}.R;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 
-import <%= appPackage %>.data.Task;
+import ${packageName}.data.Task;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;

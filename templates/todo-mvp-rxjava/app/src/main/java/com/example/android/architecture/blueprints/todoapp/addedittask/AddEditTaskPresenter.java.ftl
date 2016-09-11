@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.util.schedulers.BaseSchedulerProvider;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.util.schedulers.BaseSchedulerProvider;
 
 import rx.Observer;
 import rx.Subscription;

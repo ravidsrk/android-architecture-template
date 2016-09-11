@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
-import <%= appPackage %>.data.Task;
+import ${packageName}.data.Task;
 
 
 /**

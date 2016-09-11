@@ -1,4 +1,4 @@
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import dagger.Module;
 import dagger.Provides;

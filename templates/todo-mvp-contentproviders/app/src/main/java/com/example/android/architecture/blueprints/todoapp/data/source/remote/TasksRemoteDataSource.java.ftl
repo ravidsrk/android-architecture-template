@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source.remote;
+package ${packageName}.data.source.remote;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
 import com.google.common.collect.Lists;
 
 import java.util.Iterator;

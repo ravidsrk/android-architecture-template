@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -34,9 +34,9 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.addedittask.AddEditTaskFragment;
+import ${packageName}.R;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.addedittask.AddEditTaskFragment;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

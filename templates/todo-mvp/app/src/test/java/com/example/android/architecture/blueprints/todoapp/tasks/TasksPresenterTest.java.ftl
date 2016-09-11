@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource.LoadTasksCallback;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource.LoadTasksCallback;
+import ${packageName}.data.source.TasksRepository;
 import com.google.common.collect.Lists;
 
 import org.junit.Before;

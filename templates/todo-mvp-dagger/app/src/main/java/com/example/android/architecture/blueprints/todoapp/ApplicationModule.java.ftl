@@ -1,4 +1,4 @@
-package <%= appPackage %>;
+package ${packageName};
 
 import android.content.Context;
 
@@ -8,7 +8,7 @@ import dagger.Provides;
 /**
  * This is a Dagger module. We use this to pass in the Context dependency to the
  * {@link
- * <%= appPackage %>.data.source.TasksRepositoryComponent}.
+ * ${packageName}.data.source.TasksRepositoryComponent}.
  */
 @Module
 public final class ApplicationModule {

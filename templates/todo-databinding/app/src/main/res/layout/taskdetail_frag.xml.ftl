@@ -21,11 +21,11 @@
 
         <variable
             name="task"
-            type="<%= appPackage %>.data.Task" />
+            type="${packageName}.data.Task" />
 
         <variable
             name="presenter"
-            type="<%= appPackage %>.taskdetail.TaskDetailContract.Presenter" />
+            type="${packageName}.taskdetail.TaskDetailContract.Presenter" />
     </data>
 
     <LinearLayout

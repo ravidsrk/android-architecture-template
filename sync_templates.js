@@ -49,7 +49,6 @@ function checkOutAndCopy(repo, name) {
       return repo.checkoutRef(reference);
     })
     .then(function() {
-      replaceAndRename(true);
       copyFiles(name, def);
     });
   return def.promise;
@@ -60,67 +59,65 @@ function copyFiles(name, def) {
 
   ncp('./tmp/todoapp', './templates/' + name, function(err) {
     if (err) {
-      console.error(err);
+      return console.error(err);
       def.reject('error');
     } else {
-      replaceAndRename(false);
+      replaceAndRename(name);
       renameFileToFtl(name)
       def.resolve('Copying complete!');
     }
   });
 }
 
-function replaceAndRename(toggle) {
-  let dotGitignore = "./tmp/todoapp/.gitignore";
-  let gitIgnore = "./tmp/todoapp/gitignore";
-  let appDotGitignore = "./tmp/todoapp/app/.gitignore";
-  let appGitIgnore = "./tmp/todoapp/app/gitignore";
+function replaceAndRename(name) {
+  let dotGitignore = "./templates/" + name + "/.gitignore";
+  let gitIgnore = "./templates/" + name + "/gitignore";
+  let appDotGitignore = "./templates/" + name + "/app/.gitignore";
+  let appGitIgnore = "./templates/" + name + "/app/gitignore";
 
   replace({
-    regex: toggle ? "com.example.android.architecture.blueprints.todoapp" : "<%= appPackage %>",
-    replacement: toggle ? "<%= appPackage %>" : "com.example.android.architecture.blueprints.todoapp",
-    paths: ['./tmp/todoapp'],
+    regex: 'com.example.android.architecture.blueprints.todoapp',
+    replacement: '${packageName}',
+    paths: ['./templates/' + name],
     recursive: true,
     silent: true,
   });
 
-  mv(toggle ? dotGitignore : gitIgnore, toggle ? gitIgnore : dotGitignore, function(err) {
+  mv(dotGitignore, gitIgnore, function(err) {
     if (err) {
       return console.log(err);
     } else {
-      let file = toggle ?  ".gitignore" : "gitignore";
-      return console.log("Renamed root folder " + file);
+      return console.log("Renamed root folder gitignore");
     }
   });
 
-  mv(toggle ? appDotGitignore : appGitIgnore, toggle ? appGitIgnore : appDotGitignore, function(err) {
+  mv(appDotGitignore, appGitIgnore, function(err) {
     if (err) {
       return console.log(err);
     } else {
-      let file = toggle ?  ".gitignore" : "gitignore";
-      return console.log("Renamed app folder " + file);
+      return console.log("Renamed app folder gitignore");
     }
   });
 }
 
 function renameFileToFtl(name) {
   Finder.from("./templates/" + name).findFiles('*.java', function(files) {
-        for (var i = 0; i < files.length; i++) {
-          mv(files[i], files[i]+'.ftl', function (err) {
-            if (err) {
-              return console.log(err);
-            }
-          });
-        };
+    for (var i = 0; i < files.length; i++) {
+      mv(files[i], files[i] + '.ftl', function(err) {
+        if (err) {
+          return console.log(err);
+        }
       });
+    };
+  });
 
-      Finder.from("./templates/" + name).findFiles('*.xml', function(files) {
-        for (var i = 0; i < files.length; i++) {
-          mv(files[i], files[i]+'.ftl', function (err) {
-            if (err) {
-              return console.log(err);
-            }
-          });
-        };
+  Finder.from("./templates/" + name).findFiles('*.xml', function(files) {
+    for (var i = 0; i < files.length; i++) {
+      mv(files[i], files[i] + '.ftl', function(err) {
+        if (err) {
+          return console.log(err);
+        }
       });
+    };
+  });
 }

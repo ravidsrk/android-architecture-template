@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks.domain.filter;
+package ${packageName}.tasks.domain.filter;
 
-import <%= appPackage %>.tasks.TasksFilterType;
+import ${packageName}.tasks.TasksFilterType;
 
 import java.util.HashMap;
 import java.util.Map;

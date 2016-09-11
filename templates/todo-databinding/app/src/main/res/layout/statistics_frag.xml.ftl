@@ -21,7 +21,7 @@
 
         <variable
             name="stats"
-            type="<%= appPackage %>.statistics.StatisticsViewModel" />
+            type="${packageName}.statistics.StatisticsViewModel" />
     </data>
 
 <LinearLayout

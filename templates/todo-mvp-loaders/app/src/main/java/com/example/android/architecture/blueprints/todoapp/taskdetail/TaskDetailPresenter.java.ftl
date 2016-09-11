@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -22,9 +22,9 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TaskLoader;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TaskLoader;
+import ${packageName}.data.source.TasksRepository;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

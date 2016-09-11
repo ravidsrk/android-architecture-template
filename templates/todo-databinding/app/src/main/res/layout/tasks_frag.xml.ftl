@@ -21,14 +21,14 @@
 
         <variable
             name="tasks"
-            type="<%= appPackage %>.tasks.TasksViewModel" />
+            type="${packageName}.tasks.TasksViewModel" />
 
         <variable
             name="actionHandler"
-            type="<%= appPackage %>.tasks.TasksContract.Presenter" />
+            type="${packageName}.tasks.TasksContract.Presenter" />
     </data>
 
-<<%= appPackage %>.tasks.ScrollChildSwipeRefreshLayout
+<${packageName}.tasks.ScrollChildSwipeRefreshLayout
     android:id="@+id/refresh_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -102,6 +102,6 @@
 
         </LinearLayout>
     </RelativeLayout>
-</<%= appPackage %>.tasks.ScrollChildSwipeRefreshLayout>
+</${packageName}.tasks.ScrollChildSwipeRefreshLayout>
 </layout>
 

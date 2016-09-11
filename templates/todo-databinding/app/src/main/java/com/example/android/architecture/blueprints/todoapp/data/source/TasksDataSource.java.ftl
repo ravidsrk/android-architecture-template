@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.data.Task;
+import ${packageName}.data.Task;
 
 import java.util.List;
 

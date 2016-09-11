@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
@@ -24,10 +24,10 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.ListView;
 
-import <%= appPackage %>.Injection;
-import <%= appPackage %>.R;
-import <%= appPackage %>.TestUtils;
-import <%= appPackage %>.data.source.TasksDataSource;
+import ${packageName}.Injection;
+import ${packageName}.R;
+import ${packageName}.TestUtils;
+import ${packageName}.data.source.TasksDataSource;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;

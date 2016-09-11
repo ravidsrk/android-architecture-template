@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data;
+package ${packageName}.data;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -23,9 +23,9 @@ import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.local.TasksLocalDataSource;
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.local.TasksLocalDataSource;
+import ${packageName}.data.source.local.TasksPersistenceContract;
 
 import org.junit.After;
 import org.junit.Before;
@@ -43,7 +43,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Integration test for the {@link TasksDataSource}, which uses the {@link <%= appPackage %>.data.source.TasksProvider}.
+ * Integration test for the {@link TasksDataSource}, which uses the {@link ${packageName}.data.source.TasksProvider}.
  */
 @RunWith(AndroidJUnit4.class)
 @LargeTest

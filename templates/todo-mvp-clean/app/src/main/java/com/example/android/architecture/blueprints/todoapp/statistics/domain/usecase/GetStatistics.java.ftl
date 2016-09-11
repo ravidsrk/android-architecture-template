@@ -1,12 +1,12 @@
-package <%= appPackage %>.statistics.domain.usecase;
+package ${packageName}.statistics.domain.usecase;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.statistics.domain.model.Statistics;
+import ${packageName}.UseCase;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.statistics.domain.model.Statistics;
 
 import java.util.List;
 

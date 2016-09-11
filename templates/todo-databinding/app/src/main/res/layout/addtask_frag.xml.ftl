@@ -20,7 +20,7 @@
 
         <variable
             name="task"
-            type="<%= appPackage %>.data.Task" />
+            type="${packageName}.data.Task" />
     </data>
 
 <ScrollView

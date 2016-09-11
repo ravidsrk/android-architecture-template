@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.content.AsyncTaskLoader;
 
-import <%= appPackage %>.data.Task;
+import ${packageName}.data.Task;
 
 import java.util.List;
 

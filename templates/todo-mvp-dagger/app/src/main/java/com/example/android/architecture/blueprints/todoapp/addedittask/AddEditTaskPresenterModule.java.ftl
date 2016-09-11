@@ -1,4 +1,4 @@
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import android.support.annotation.Nullable;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
@@ -29,7 +29,7 @@ import static org.mockito.Mockito.when;
 
 import android.content.Context;
 
-import <%= appPackage %>.data.Task;
+import ${packageName}.data.Task;
 import com.google.common.collect.Lists;
 
 import org.junit.After;

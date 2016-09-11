@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 
-import <%= appPackage %>.Injection;
-import <%= appPackage %>.data.Task;
+import ${packageName}.Injection;
+import ${packageName}.data.Task;
 
 /**
  * Custom {@link android.content.Loader} for a {@link Task}, using the

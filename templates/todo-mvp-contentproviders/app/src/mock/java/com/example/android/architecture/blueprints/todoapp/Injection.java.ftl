@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.data.FakeTasksRemoteDataSource;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.data.source.local.TasksLocalDataSource;
+import ${packageName}.data.FakeTasksRemoteDataSource;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.data.source.local.TasksLocalDataSource;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

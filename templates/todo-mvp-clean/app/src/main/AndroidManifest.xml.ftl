@@ -16,7 +16,7 @@
   -->
 
 <manifest
-    package="<%= appPackage %>"
+    package="${packageName}"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -26,16 +26,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-                android:name="<%= appPackage %>.tasks.TasksActivity"
+                android:name="${packageName}.tasks.TasksActivity"
                 android:theme="@style/AppTheme.OverlapSystemBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="<%= appPackage %>.taskdetail.TaskDetailActivity" />
-        <activity android:name="<%= appPackage %>.addedittask.AddEditTaskActivity" />
-        <activity android:name="<%= appPackage %>.statistics.StatisticsActivity" />
+        <activity android:name="${packageName}.taskdetail.TaskDetailActivity" />
+        <activity android:name="${packageName}.addedittask.AddEditTaskActivity" />
+        <activity android:name="${packageName}.statistics.StatisticsActivity" />
     </application>
 
 </manifest>

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.tasks.domain.model.Task;
+import ${packageName}.tasks.domain.model.Task;
 
 import java.util.ArrayList;
 import java.util.Iterator;

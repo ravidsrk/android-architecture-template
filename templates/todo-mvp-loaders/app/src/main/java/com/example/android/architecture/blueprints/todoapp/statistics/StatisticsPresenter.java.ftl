@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksLoader;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksLoader;
 
 import java.util.List;
 

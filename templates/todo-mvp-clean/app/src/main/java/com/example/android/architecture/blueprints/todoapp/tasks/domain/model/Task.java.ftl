@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks.domain.model;
+package ${packageName}.tasks.domain.model;
 
 import android.support.annotation.Nullable;
 

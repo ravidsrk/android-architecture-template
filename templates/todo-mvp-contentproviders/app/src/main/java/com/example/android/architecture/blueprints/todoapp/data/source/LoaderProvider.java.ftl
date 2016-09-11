@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -22,8 +22,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
-import <%= appPackage %>.tasks.TaskFilter;
+import ${packageName}.data.source.local.TasksPersistenceContract;
+import ${packageName}.tasks.TaskFilter;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

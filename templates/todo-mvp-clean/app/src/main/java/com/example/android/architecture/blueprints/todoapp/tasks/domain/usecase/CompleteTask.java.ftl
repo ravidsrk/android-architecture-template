@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks.domain.usecase;
+package ${packageName}.tasks.domain.usecase;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.UseCase;
+import ${packageName}.data.source.TasksRepository;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

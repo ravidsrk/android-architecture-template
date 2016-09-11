@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import <%= appPackage %>.TestUseCaseScheduler;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.addedittask.domain.usecase.GetTask;
-import <%= appPackage %>.addedittask.domain.usecase.SaveTask;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.TestUseCaseScheduler;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.addedittask.domain.usecase.GetTask;
+import ${packageName}.addedittask.domain.usecase.SaveTask;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
 
 import org.junit.Before;
 import org.junit.Test;

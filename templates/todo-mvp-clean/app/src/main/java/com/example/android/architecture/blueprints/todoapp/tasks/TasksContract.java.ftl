@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.BaseView;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.BasePresenter;
+import ${packageName}.BaseView;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.BasePresenter;
 
 import java.util.List;
 

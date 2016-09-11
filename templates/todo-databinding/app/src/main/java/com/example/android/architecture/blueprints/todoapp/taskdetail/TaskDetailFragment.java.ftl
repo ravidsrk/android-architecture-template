@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -30,11 +30,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.addedittask.AddEditTaskFragment;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.databinding.TaskdetailFragBinding;
+import ${packageName}.R;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.addedittask.AddEditTaskFragment;
+import ${packageName}.data.Task;
+import ${packageName}.databinding.TaskdetailFragBinding;
 
 
 /**

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.util.schedulers.BaseSchedulerProvider;
-import <%= appPackage %>.util.schedulers.ImmediateSchedulerProvider;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.util.schedulers.BaseSchedulerProvider;
+import ${packageName}.util.schedulers.ImmediateSchedulerProvider;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.addedittask.AddEditTaskActivity;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.tasks.domain.usecase.ActivateTask;
-import <%= appPackage %>.tasks.domain.usecase.ClearCompleteTasks;
-import <%= appPackage %>.tasks.domain.usecase.CompleteTask;
-import <%= appPackage %>.tasks.domain.usecase.GetTasks;
+import ${packageName}.UseCase;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.addedittask.AddEditTaskActivity;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.tasks.domain.usecase.ActivateTask;
+import ${packageName}.tasks.domain.usecase.ClearCompleteTasks;
+import ${packageName}.tasks.domain.usecase.CompleteTask;
+import ${packageName}.tasks.domain.usecase.GetTasks;
 
 import java.util.List;
 

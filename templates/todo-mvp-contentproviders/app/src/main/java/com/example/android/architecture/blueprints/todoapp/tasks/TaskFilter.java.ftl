@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.os.Bundle;
 
-import <%= appPackage %>.BuildConfig;
+import ${packageName}.BuildConfig;
 
 public class TaskFilter {
 

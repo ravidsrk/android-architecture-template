@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.addedittask.domain.usecase.DeleteTask;
-import <%= appPackage %>.addedittask.domain.usecase.GetTask;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.tasks.domain.usecase.ActivateTask;
-import <%= appPackage %>.tasks.domain.usecase.CompleteTask;
+import ${packageName}.UseCase;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.addedittask.domain.usecase.DeleteTask;
+import ${packageName}.addedittask.domain.usecase.GetTask;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.tasks.domain.usecase.ActivateTask;
+import ${packageName}.tasks.domain.usecase.CompleteTask;
 
 /**
  * Listens to user actions from the UI ({@link TaskDetailFragment}), retrieves the data and updates

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data;
+package ${packageName}.data;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.local.TasksDbHelper;
-import <%= appPackage %>.data.source.local.TasksLocalDataSource;
-import <%= appPackage %>.util.schedulers.BaseSchedulerProvider;
-import <%= appPackage %>.util.schedulers.ImmediateSchedulerProvider;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.local.TasksDbHelper;
+import ${packageName}.data.source.local.TasksLocalDataSource;
+import ${packageName}.util.schedulers.BaseSchedulerProvider;
+import ${packageName}.util.schedulers.ImmediateSchedulerProvider;
 
 import org.junit.After;
 import org.junit.Before;

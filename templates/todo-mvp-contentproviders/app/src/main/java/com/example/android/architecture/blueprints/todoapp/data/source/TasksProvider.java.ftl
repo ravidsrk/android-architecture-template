@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -24,8 +24,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.data.source.local.TasksDbHelper;
-import <%= appPackage %>.data.source.local.TasksPersistenceContract;
+import ${packageName}.data.source.local.TasksDbHelper;
+import ${packageName}.data.source.local.TasksPersistenceContract;
 
 public class TasksProvider extends ContentProvider {
 

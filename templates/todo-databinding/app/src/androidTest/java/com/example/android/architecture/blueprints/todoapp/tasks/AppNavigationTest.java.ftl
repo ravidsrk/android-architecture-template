@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
@@ -26,8 +26,8 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
-import static <%= appPackage %>.TestUtils.getToolbarNavigationContentDescription;
-import static <%= appPackage %>.custom.action.NavigationViewActions.navigateTo;
+import static ${packageName}.TestUtils.getToolbarNavigationContentDescription;
+import static ${packageName}.custom.action.NavigationViewActions.navigateTo;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
@@ -35,7 +35,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.view.Gravity;
 
-import <%= appPackage %>.R;
+import ${packageName}.R;
 
 import org.junit.Rule;
 import org.junit.Test;

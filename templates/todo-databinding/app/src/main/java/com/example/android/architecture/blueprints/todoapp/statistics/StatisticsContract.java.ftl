@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
-import <%= appPackage %>.BasePresenter;
-import <%= appPackage %>.data.Task;
+import ${packageName}.BasePresenter;
+import ${packageName}.data.Task;
 
 import java.util.List;
 

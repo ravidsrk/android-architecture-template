@@ -14,7 +14,7 @@
   ~ limitations under the License.
   -->
 
-<<%= appPackage %>.tasks.ScrollChildSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<${packageName}.tasks.ScrollChildSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/refresh_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -81,5 +81,5 @@
 
         </LinearLayout>
     </RelativeLayout>
-</<%= appPackage %>.tasks.ScrollChildSwipeRefreshLayout>
+</${packageName}.tasks.ScrollChildSwipeRefreshLayout>
 

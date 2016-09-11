@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -27,8 +27,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.databinding.StatisticsFragBinding;
+import ${packageName}.R;
+import ${packageName}.databinding.StatisticsFragBinding;
 
 /**
  * Main UI for the statistics screen.

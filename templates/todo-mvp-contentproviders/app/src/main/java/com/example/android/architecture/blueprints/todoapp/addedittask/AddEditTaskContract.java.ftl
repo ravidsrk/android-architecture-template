@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
-import <%= appPackage %>.BasePresenter;
-import <%= appPackage %>.BaseView;
+import ${packageName}.BasePresenter;
+import ${packageName}.BaseView;
 
 /**
  * This specifies the contract between the view and the presenter.

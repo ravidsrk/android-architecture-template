@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.BasePresenter;
-import <%= appPackage %>.BaseView;
-import <%= appPackage %>.data.Task;
+import ${packageName}.BasePresenter;
+import ${packageName}.BaseView;
+import ${packageName}.data.Task;
 
 /**
  * This specifies the contract between the view and the presenter.

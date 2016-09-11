@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source.local;
+package ${packageName}.data.source.local;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

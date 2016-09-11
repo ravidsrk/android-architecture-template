@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 
-import <%= appPackage %>.util.EspressoIdlingResource;
+import ${packageName}.util.EspressoIdlingResource;
 
 /**
  * Runs {@link UseCase}s using a {@link UseCaseScheduler}.

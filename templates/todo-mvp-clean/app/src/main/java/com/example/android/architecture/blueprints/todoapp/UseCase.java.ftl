@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 /**
  * Use cases are the entry points to the domain layer.

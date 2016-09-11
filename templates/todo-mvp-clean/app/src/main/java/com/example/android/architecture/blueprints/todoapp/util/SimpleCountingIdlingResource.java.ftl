@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.util;
+package ${packageName}.util;
 
 import android.support.annotation.NonNull;
 import android.support.test.espresso.IdlingResource;

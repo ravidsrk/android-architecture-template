@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.statistics.domain.usecase.GetStatistics;
-import <%= appPackage %>.statistics.domain.model.Statistics;
+import ${packageName}.UseCase;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.statistics.domain.usecase.GetStatistics;
+import ${packageName}.statistics.domain.model.Statistics;
 
 /**
  * Listens to user actions from the UI ({@link StatisticsFragment}), retrieves the data and updates

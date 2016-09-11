@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.BasePresenter;
-import <%= appPackage %>.BaseView;
-import <%= appPackage %>.data.Task;
+import ${packageName}.BasePresenter;
+import ${packageName}.BaseView;
+import ${packageName}.data.Task;
 
 /**
  * This specifies the contract between the view and the presenter.

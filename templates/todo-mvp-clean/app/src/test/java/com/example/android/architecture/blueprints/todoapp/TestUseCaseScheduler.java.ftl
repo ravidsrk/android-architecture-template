@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 /**
  * A scheduler that executes synchronously, for testing purposes.

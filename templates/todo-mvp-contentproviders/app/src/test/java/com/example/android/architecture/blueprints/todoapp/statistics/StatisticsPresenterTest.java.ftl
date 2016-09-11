@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.statistics;
+package ${packageName}.statistics;
 
 import android.support.v4.app.LoaderManager;
 
-import <%= appPackage %>.data.source.LoaderProvider;
-import <%= appPackage %>.data.source.MockCursorProvider;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.data.source.LoaderProvider;
+import ${packageName}.data.source.MockCursorProvider;
+import ${packageName}.data.source.TasksRepository;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
@@ -31,11 +31,11 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.TestUtils;
-import <%= appPackage %>.data.FakeTasksRemoteDataSource;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksRepository;
+import ${packageName}.R;
+import ${packageName}.TestUtils;
+import ${packageName}.data.FakeTasksRemoteDataSource;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksRepository;
 
 import org.junit.Rule;
 import org.junit.Test;

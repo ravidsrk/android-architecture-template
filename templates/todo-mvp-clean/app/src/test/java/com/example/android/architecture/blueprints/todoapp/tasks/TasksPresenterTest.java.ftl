@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Matchers.any;
@@ -22,17 +22,17 @@ import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import <%= appPackage %>.TestUseCaseScheduler;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource
+import ${packageName}.TestUseCaseScheduler;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource
         .LoadTasksCallback;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.tasks.domain.filter.FilterFactory;
-import <%= appPackage %>.tasks.domain.usecase.ActivateTask;
-import <%= appPackage %>.tasks.domain.usecase.ClearCompleteTasks;
-import <%= appPackage %>.tasks.domain.usecase.CompleteTask;
-import <%= appPackage %>.tasks.domain.usecase.GetTasks;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.tasks.domain.filter.FilterFactory;
+import ${packageName}.tasks.domain.usecase.ActivateTask;
+import ${packageName}.tasks.domain.usecase.ClearCompleteTasks;
+import ${packageName}.tasks.domain.usecase.CompleteTask;
+import ${packageName}.tasks.domain.usecase.GetTasks;
 import com.google.common.collect.Lists;
 
 import org.junit.Before;

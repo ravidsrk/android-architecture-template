@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -28,9 +28,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import <%= appPackage %>.R;
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.databinding.AddtaskFragBinding;
+import ${packageName}.R;
+import ${packageName}.data.Task;
+import ${packageName}.databinding.AddtaskFragBinding;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

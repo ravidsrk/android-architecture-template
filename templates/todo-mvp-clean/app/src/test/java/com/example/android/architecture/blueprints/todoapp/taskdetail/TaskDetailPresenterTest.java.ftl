@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.taskdetail;
+package ${packageName}.taskdetail;
 
 import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import <%= appPackage %>.TestUseCaseScheduler;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.addedittask.domain.usecase.DeleteTask;
-import <%= appPackage %>.addedittask.domain.usecase.GetTask;
-import <%= appPackage %>.tasks.domain.model.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.TasksRepository;
-import <%= appPackage %>.tasks.domain.usecase.ActivateTask;
-import <%= appPackage %>.tasks.domain.usecase.CompleteTask;
+import ${packageName}.TestUseCaseScheduler;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.addedittask.domain.usecase.DeleteTask;
+import ${packageName}.addedittask.domain.usecase.GetTask;
+import ${packageName}.tasks.domain.model.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.TasksRepository;
+import ${packageName}.tasks.domain.usecase.ActivateTask;
+import ${packageName}.tasks.domain.usecase.CompleteTask;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>;
+package ${packageName};
 
 /**
  * Interface for schedulers, see {@link UseCaseThreadPoolScheduler}.

@@ -1,8 +1,8 @@
-package <%= appPackage %>.tasks;
+package ${packageName}.tasks;
 
-import <%= appPackage %>.ToDoApplication;
-import <%= appPackage %>.data.source.TasksRepositoryComponent;
-import <%= appPackage %>.util.FragmentScoped;
+import ${packageName}.ToDoApplication;
+import ${packageName}.data.source.TasksRepositoryComponent;
+import ${packageName}.util.FragmentScoped;
 
 import dagger.Component;
 

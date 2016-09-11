@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.data.source.local;
+package ${packageName}.data.source.local;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.NonNull;
 
-import <%= appPackage %>.data.Task;
-import <%= appPackage %>.data.source.TasksDataSource;
-import <%= appPackage %>.data.source.local.TasksPersistenceContract.TaskEntry;
+import ${packageName}.data.Task;
+import ${packageName}.data.source.TasksDataSource;
+import ${packageName}.data.source.local.TasksPersistenceContract.TaskEntry;
 
 import java.util.ArrayList;
 import java.util.List;

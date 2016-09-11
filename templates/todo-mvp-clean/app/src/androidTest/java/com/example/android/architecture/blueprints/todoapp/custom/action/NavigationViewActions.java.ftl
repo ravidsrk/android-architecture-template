@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.custom.action;
+package ${packageName}.custom.action;
 
 import org.hamcrest.Matcher;
 

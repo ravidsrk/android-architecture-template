@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.tasks.domain.filter;
+package ${packageName}.tasks.domain.filter;
 
-import <%= appPackage %>.tasks.domain.model.Task;
+import ${packageName}.tasks.domain.model.Task;
 
 import java.util.ArrayList;
 import java.util.List;

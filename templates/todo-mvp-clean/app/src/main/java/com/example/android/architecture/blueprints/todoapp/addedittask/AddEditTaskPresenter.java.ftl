@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import <%= appPackage %>.UseCase;
-import <%= appPackage %>.UseCaseHandler;
-import <%= appPackage %>.addedittask.domain.usecase.GetTask;
-import <%= appPackage %>.addedittask.domain.usecase.SaveTask;
-import <%= appPackage %>.tasks.domain.model.Task;
+import ${packageName}.UseCase;
+import ${packageName}.UseCaseHandler;
+import ${packageName}.addedittask.domain.usecase.GetTask;
+import ${packageName}.addedittask.domain.usecase.SaveTask;
+import ${packageName}.tasks.domain.model.Task;
 
 /**
  * Listens to user actions from the UI ({@link AddEditTaskFragment}), retrieves the data and

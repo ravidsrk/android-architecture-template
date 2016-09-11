@@ -1,7 +1,7 @@
-package <%= appPackage %>.data.source;
+package ${packageName}.data.source;
 
-import <%= appPackage %>.ApplicationModule;
-import <%= appPackage %>.ToDoApplication;
+import ${packageName}.ApplicationModule;
+import ${packageName}.ToDoApplication;
 
 import javax.inject.Singleton;
 

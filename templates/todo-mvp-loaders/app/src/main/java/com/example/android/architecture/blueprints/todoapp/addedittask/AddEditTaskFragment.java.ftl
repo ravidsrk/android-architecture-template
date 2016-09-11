@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package <%= appPackage %>.addedittask;
+package ${packageName}.addedittask;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -30,7 +30,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import <%= appPackage %>.R;
+import ${packageName}.R;
 
 /**
  * Main UI for the add task screen. Users can enter a task title and description.
