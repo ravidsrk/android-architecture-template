@@ -7,6 +7,8 @@ const mv = require('mv');
 const mkdirp = require('mkdirp');
 const clone = require("nodegit").Clone;
 const replace = require("replace");
+const filter = require('filter-files');
+const findInFiles = require('find-in-files');
 const ncp = require('ncp').ncp;
 const Finder = require('fs-finder');
 const deferred = require('deferred');
@@ -62,33 +64,9 @@ function copyFiles(name, def) {
       def.reject('error');
     } else {
       replaceAndRename(false);
-      console.log('Renaming files to add .ftl extension!');
-      // renameFileToFtl(name);
       def.resolve('Copying complete!');
     }
   });
-}
-
-function renameFileToFtl(name) {
-  Finder.from("./templates/" + name).findFiles('*.java', function(files) {
-        for (var i = 0; i < files.length; i++) {
-          mv(files[i], files[i]+'.ftl', function (err) {
-            if (err) {
-              return console.log(err);
-            }
-          });
-        };
-      });
-
-      Finder.from("./templates/" + name).findFiles('*.xml', function(files) {
-        for (var i = 0; i < files.length; i++) {
-          mv(files[i], files[i]+'.ftl', function (err) {
-            if (err) {
-              return console.log(err);
-            }
-          });
-        };
-      });
 }
 
 function replaceAndRename(toggle) {
@@ -98,8 +76,8 @@ function replaceAndRename(toggle) {
   let appGitIgnore = "./tmp/todoapp/app/gitignore";
 
   replace({
-    regex: toggle ? "com.example.android.architecture.blueprints.todoapp" : "${packageName}",
-    replacement: toggle ? "${packageName}" : "com.example.android.architecture.blueprints.todoapp",
+    regex: toggle ? "com.example.android.architecture.blueprints.todoapp" : "<%= appPackage %>",
+    replacement: toggle ? "<%= appPackage %>" : "com.example.android.architecture.blueprints.todoapp",
     paths: ['./tmp/todoapp'],
     recursive: true,
     silent: true,

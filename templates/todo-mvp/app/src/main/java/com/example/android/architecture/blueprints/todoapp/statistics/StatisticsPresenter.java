@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package ${packageName}.statistics;
+package <%= appPackage %>.statistics;
 
 import android.support.annotation.NonNull;
 
-import ${packageName}.data.Task;
-import ${packageName}.data.source.TasksDataSource;
-import ${packageName}.data.source.TasksRepository;
-import ${packageName}.util.EspressoIdlingResource;
+import <%= appPackage %>.data.Task;
+import <%= appPackage %>.data.source.TasksDataSource;
+import <%= appPackage %>.data.source.TasksRepository;
+import <%= appPackage %>.util.EspressoIdlingResource;
 
 import java.util.List;
 

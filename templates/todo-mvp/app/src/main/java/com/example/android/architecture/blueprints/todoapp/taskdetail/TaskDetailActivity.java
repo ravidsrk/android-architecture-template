@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ${packageName}.taskdetail;
+package <%= appPackage %>.taskdetail;
 
 import android.os.Bundle;
 import android.support.annotation.VisibleForTesting;
@@ -23,10 +23,10 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import ${packageName}.Injection;
-import ${packageName}.R;
-import ${packageName}.util.ActivityUtils;
-import ${packageName}.util.EspressoIdlingResource;
+import <%= appPackage %>.Injection;
+import <%= appPackage %>.R;
+import <%= appPackage %>.util.ActivityUtils;
+import <%= appPackage %>.util.EspressoIdlingResource;
 
 /**
  * Displays task details screen.

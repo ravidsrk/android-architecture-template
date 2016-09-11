@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ${packageName}.data;
+package <%= appPackage %>.data;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
